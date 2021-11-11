@@ -1,65 +1,70 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-    <div style="float:middle;">
-    <title>Smarriga Hamburgare</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <div><br />
+        <title>Smarriga Hamburgare</title>
     <meta charset="utf-8"/>
     </div>
 </head>
-<body>
+<body style="background-color:#8FBC8F">
 <header>
-    <div style="float:middle;">
-    <h1>Välkommen till <i>Smarriga Hamburgare</i></h1>
+    <div id="header_image">
+        <img src="https://www.northernoutdoors.com/wp-content/uploads/2020/10/xlodge-lounge-bar-e1603738215527.jpg.pagespeed.ic.ZNSrVMBqlw.jpg" style="width:100%;height:250px";>
     </div>
+        <h1 id="id_header">Välkommen till <i>Smarriga Hamburgare</i></h1>
 </header>
-<nav> <b>Här kan du beställa hem de godaste burgarna STS-programmet har att erbjuda</b><br /> </nav>
+<nav id="id_info"> <b>Här kan du beställa hem de godaste burgarna STS-programmet har att erbjuda</b><br /> </nav>
+<hr>
 <main>
-    <section>
-        <hr>
+    <section id="id_BURGARE"  class="wrapper">
         <br />
-        <div style="float:left;">
+        <br />
+        <div class="box_burgare class_göteborg">
         <b> Göteburgarn</b><br /><br />
-            <img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/halloumiburgare-2e7f906b.jpg" style="width:250px;height:150px";>
-        <p> Göteburgarn är en maxad <br />
-            burgare med potatobun,<br />
-            halloumipatty, picklad rödlök,<br />
-            grönsallat och avokado
+            <img src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/halloumiburgare-2e7f906b.jpg" style="width:300px;height:300px";>
+        <p> Göteburgarn är en maxad burgare <br />
+            med potatobun,halloumipatty, <br />
+            picklad rödlök, grönsallat och avokado
             <ul>
                 <li>Vegansk</li>
-                <li>Innehålelr gluten</li>
-                <li>Innehålelr laktos</li>
+                <li><section class="class_allergener">
+                    <p>Innehåller <span id="id_allergener "> gluten</span></p>
+                </section></li>
             </ul>
         </p>
         </div>
-        <div style="float:left;">
+        <div class="box_burgare class_kungsbacka">
         <b> Kungsbacka Fjorden </b><br /><br />
-            <img src="https://cdn-rdb.arla.com/Files/arla-se/4157482549/b5e7081d-32b2-4675-b3ca-8f01f742d723.jpg?mode=crop&w=1200&h=630&scale=both&format=jpg&quality=80&ak=f525e733&hm=35af1404" style="width:250px;height:150px";>
+            <img src="https://cdn-rdb.arla.com/Files/arla-se/4157482549/b5e7081d-32b2-4675-b3ca-8f01f742d723.jpg?mode=crop&w=1200&h=630&scale=both&format=jpg&quality=80&ak=f525e733&hm=35af1404" style="width:300px;height:300px";>
         <p> Fjordburgarn, ett fluffigt baugettbröd <br />
             fullproppad med färsk panerad fisk från <br />
             västkusten, bostongurka, dill, grönsallat, <br />
             tomat och skagenröra.
             <ul>
-                <li>Innehåller gluten</li>
-                <li>Innehålelr laktos</li>
+            <li>Pesctiariansk</li>
+            <li> <section class="class_allergener">
+                <p>Innehåller <span id="id_allergener ">laktos </span></p>
+            </section></li>
             </ul>
         </p>
         </div>
-        <div style="float:left;">
+        <div class="box_burgare class_uppsala">
         <b> Uppsalas slottsburgare </b><br /><br />
-            <img src="https://folkofolk.se/sites/default/files/2021-08/klassisk-hamburgare_2.jpg" style="width:250px;height:150px";>
+            <img src="https://folkofolk.se/sites/default/files/2021-08/klassisk-hamburgare_2.jpg" style="width:300px;height:300px";>
         <p> Slottsburgarn är en klassisk <br />
             burgare och består av briochebun <br />
             fylld med en högrevspatty,cheddarost,<br />
             våregna dressing, pickles och grönsallat.
             <ul>
-                <li>Innehåller gluten</li>
-                <li>Innehålelr laktos</li>
+            <li> <section class="class_allergener">
+                <p>Innehåller <span id="id_allergener "> gluten och laktos </span></p>
+            </section></li>
             </ul>
         </div>
         </p>
-        <div style="clear:left">
+        <div class="box class_extra">
             <dl>
-                <hr>
                 <dt><b>Extra Önskemål?</b></dt>
                 <dd>Det går att få alla burgare veganska med vår plantbaserade patty,
                     eller byta ut olika delar för att anpassa till allegier.</dd>
@@ -69,11 +74,11 @@
                 <p><label for="Vegansk Patty">Vegansk Patty</label><br>
                     <input type="radio" id="Vegansk Patty" name="ln" placeholder="Vegansk Patty"></p>
             </dl>
-
         </div>
-    </section>
+        </span></p>
+    </section >
     <hr>
-    <section>
+    <section id="id_kunduppgifter">
         <div>
         <b>Fyll i dina uppgifter för att beställa</b><br />
         <p>
@@ -111,7 +116,7 @@
                <input type="radio" id="Kön" name="em" required="required" placeholder="Vill inte ange" value="Vill inte ange"> Vill inte svara
             </p>
         </div>
-        <button type="submit">
+        <button type="submit" id="id_button">
             Placera din order <br />
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Arrow_east.svg/2560px-Arrow_east.svg.png" style="width:30px;height:20px";>
         </button>

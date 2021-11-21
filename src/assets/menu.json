@@ -1,0 +1,27 @@
+
+[
+  {
+    "name": "Göteburgarn",
+    "kcal": "300 kcal",
+    "lactose": false,
+    "gluten": true,
+    "vegan": true,
+    "url": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/halloumiburgare-2e7f906b.jpg"
+  },
+  {
+    "name": "Kungsbacka Fjorden",
+    "kcal": "400 kcal",
+    "lactose": true,
+    "gluten": false,
+    "vegan": false,
+    "url": "https://cdn-rdb.arla.com/Files/arla-se/4157482549/b5e7081d-32b2-4675-b3ca-8f01f742d723.jpg?mode=crop&w=1200&h=630&scale=both&format=jpg&quality=80&ak=f525e733&hm=35af1404"
+  },
+  {
+    "name": "Uppsalas Slottsburgare",
+    "kcal": "500 kcal",
+    "lactose": true,
+    "gluten": true,
+    "vegan": false,
+    "url": "https://folkofolk.se/sites/default/files/2021-08/klassisk-hamburgare_2.jpg"
+  }
+]

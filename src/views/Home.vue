@@ -146,7 +146,6 @@ export default {
                        Gender: this.gender},
       });
       console.log("Name:", this.Name,"Email:", this.Email,"Payment Method:",this.SelectPayment, "Gender:",this.gender, "Ordered Burgers:", this.orderedBurgers)
-
     },
   }
 }
